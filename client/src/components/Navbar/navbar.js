@@ -23,7 +23,7 @@ export default function Navbar() {
         <nav className='nav-container'>
             <div className="navbar-active">
                 <div className="logo">
-                    <a href="/"><h2>Pratidhi</h2></a>
+                    <a href="/"><h2>Annadaata</h2></a>
                     <img src={logo} alt="logo" />
                 </div>
                 <div className="links">

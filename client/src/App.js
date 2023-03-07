@@ -12,7 +12,7 @@ import DroneForm from './pages/DroneForm/droneform'
 
 export default function App() {
   useEffect(() => {
-    document.title = "Pratidhi";
+    document.title = "Annadaata";
   }, [])
   return (
     < BrowserRouter >

@@ -1,4 +1,4 @@
-# Pratidhi
+# Annadaata
 
 # Problem Statement
 **Crop Guidance and Farmers Friend - (BioTech)**
