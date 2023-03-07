@@ -114,9 +114,9 @@ export default function Prediction() {
         <div className="body">
             <Navbar />
             <div className="prediction-window">
-                <div className="location-form">
+                {/* <div className="location-form">
                     <button onClick={getCoord}>Get Location</button>
-                </div>
+                </div> */}
                 <div className="predict-form">
                     <h3>Please enter the following values</h3>
                     <div className="fields">
