@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import Navbar2 from '../../components/Navbar2/navbar2';
 import '../Prediction/prediction.css'
 

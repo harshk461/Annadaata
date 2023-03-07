@@ -1,6 +1,4 @@
 import React from 'react'
-import Footer from '../../components/Footer/footer'
-import Navbar from '../../components/Navbar/navbar'
 import Navbar2 from '../../components/Navbar2/navbar2'
 import '../Blog/blog.css'
 
@@ -72,7 +70,6 @@ export default function Blog() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </div>
     )
 }

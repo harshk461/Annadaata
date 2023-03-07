@@ -3,7 +3,6 @@ import './login.css'
 import loginImage from '../../assets/login.png'
 import { FaUserAlt, FaLock } from 'react-icons/fa'
 import { useNavigate } from 'react-router-dom'
-import Navbar from '../../components/Navbar/navbar'
 import Navbar2 from '../../components/Navbar2/navbar2'
 export default function Login() {
     const [user, setuser] = useState('');

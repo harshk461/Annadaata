@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../../components/Navbar/navbar'
 import '../DroneForm/droneform.css'
 import { useNavigate } from 'react-router-dom'
 import Navbar2 from '../../components/Navbar2/navbar2';

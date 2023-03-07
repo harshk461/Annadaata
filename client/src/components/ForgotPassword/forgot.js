@@ -1,7 +1,6 @@
 import React from 'react'
 import { FaArrowLeft } from 'react-icons/fa'
 import '../ForgotPassword/forgot.css'
-import Navbar from '../Navbar/navbar'
 import Navbar2 from '../Navbar2/navbar2'
 
 export default function ForgotPassword() {

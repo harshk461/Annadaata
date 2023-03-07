@@ -2,7 +2,6 @@ import React from 'react'
 import '../Contact/contact.css'
 import { FaMap, FaPhone } from 'react-icons/fa'
 import { AiOutlineMail } from 'react-icons/ai'
-import Navbar from '../Navbar/navbar'
 import Navbar2 from '../Navbar2/navbar2'
 export default function Contact() {
     return (
