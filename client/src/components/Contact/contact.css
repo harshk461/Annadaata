@@ -1,7 +1,6 @@
 .contact-window {
     width: 100%;
     height: 100vh;
-    background-color: #3CBA7D;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,7 +9,7 @@
 .contact-window .contact-fields {
     width: 600px;
     text-align: center;
-    color: #fff;
+    color: #000;
 }
 
 .contact-fields h3 {
@@ -34,13 +33,13 @@
     gap: 10px;
     font-size: 16px;
     border-radius: 20px;
-    transition: 1s all ease-in-out;
+    transition: 500ms all ease-in-out;
     padding: 20px;
 }
 
 .address-fields .field:hover {
-    background: orange;
-    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(22, 21, 21, 0.5) -3px -3px 6px 1px inset;
+    background: #FFE074;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .contact-fields .input-field {
@@ -91,7 +90,7 @@
 
 .text-fields .left-field .input input:focus,
 .text-fields .right-field textarea:focus {
-    outline: 2px solid orangered;
+    outline: 2px solid #FFE074;
 }
 
 .text-fields .right-field {
@@ -116,11 +115,10 @@
 .contact-fields button {
     padding: 10px 20px;
     border: none;
-    background: orange;
-    color: #fff;
+    background: #FFE074;
+    color: #000;
     font-size: 17px;
     border-radius: 10px;
-    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 
 @media (max-width:600px) {

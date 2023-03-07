@@ -4,7 +4,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3CBA7D;
 }
 
 .forgot-window .forgot {
@@ -22,7 +21,7 @@
 }
 
 .forgot h5 {
-    color: bisque;
+    color: #000;
     font-size: 18px;
     margin: 10px 0;
 }
@@ -37,7 +36,7 @@
 .forgot .field label {
     font-size: 20px;
     font-weight: 700;
-    color: bisque;
+    color: #000;
 }
 
 .forgot .field input {

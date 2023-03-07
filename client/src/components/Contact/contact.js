@@ -3,10 +3,11 @@ import '../Contact/contact.css'
 import { FaMap, FaPhone } from 'react-icons/fa'
 import { AiOutlineMail } from 'react-icons/ai'
 import Navbar from '../Navbar/navbar'
+import Navbar2 from '../Navbar2/navbar2'
 export default function Contact() {
     return (
         <div className="body">
-            <Navbar />
+            <Navbar2 />
             <div className="contact-window">
                 <div className="contact-fields">
                     <h3>Get in touch!</h3>

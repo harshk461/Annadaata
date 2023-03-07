@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../../components/Navbar/navbar'
 import '../DroneForm/droneform.css'
 import { useNavigate } from 'react-router-dom'
+import Navbar2 from '../../components/Navbar2/navbar2';
 
 export default function DroneForm() {
     const navigate = useNavigate();
@@ -11,7 +12,7 @@ export default function DroneForm() {
     }
     return (
         <div className="body">
-            <Navbar />
+            <Navbar2 />
             <div className="drone-window">
                 <div className="drone-form">
                     <h4>Book your Drone</h4>

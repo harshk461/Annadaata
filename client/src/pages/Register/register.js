@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './register.css'
 import loginImage from '../../assets/login.png'
 import { FaUserAlt, FaLock, FaMailBulk } from 'react-icons/fa'
-import Navbar from '../../components/Navbar/navbar';
+import Navbar2 from '../../components/Navbar2/navbar2';
 
 export default function Register() {
     const [name, setName] = useState('');
@@ -12,7 +12,7 @@ export default function Register() {
 
     return (
         <div className="body">
-            <Navbar />
+            <Navbar2 />
             <div className="register-container">
                 <div className="register-window">
                     <div className="top">

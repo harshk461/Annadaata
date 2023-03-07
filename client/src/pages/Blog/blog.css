@@ -2,7 +2,6 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    background-color: #3CBA7D;
 }
 
 .blog-window .header {
@@ -12,7 +11,7 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    background-color: #f3f3cb;
+    background-color: #FFE074;
 }
 
 .test {
@@ -48,7 +47,7 @@
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 20px;
     border: 1px solid #000;
-    background: #f3f3cb;
+    background: #FFE074;
 }
 
 .blog img {

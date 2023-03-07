@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import Navbar from '../../components/Navbar/navbar'
+import Navbar2 from '../../components/Navbar2/navbar2';
 import '../Prediction/prediction.css'
-import { useGeolocated } from "react-geolocated";
 
 export default function Prediction() {
     const [nitro, setNitro] = useState(null);
@@ -112,7 +111,7 @@ export default function Prediction() {
 
     return (
         <div className="body">
-            <Navbar />
+            <Navbar2 />
             <div className="prediction-window">
                 {/* <div className="location-form">
                     <button onClick={getCoord}>Get Location</button>

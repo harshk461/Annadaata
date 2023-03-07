@@ -1,12 +1,13 @@
 import React from 'react'
 import Footer from '../../components/Footer/footer'
 import Navbar from '../../components/Navbar/navbar'
+import Navbar2 from '../../components/Navbar2/navbar2'
 import '../Blog/blog.css'
 
 export default function Blog() {
     return (
         <div className="body">
-            <Navbar />
+            <Navbar2 />
             <div className="blog-window" >
                 <div className="header">
                     <h3>Stay up to date with the latest Leaf news.</h3>
