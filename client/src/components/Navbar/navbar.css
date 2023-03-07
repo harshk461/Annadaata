@@ -1,0 +1,126 @@
+.nav-container {
+    width: 100%;
+    padding: 25px 50px;
+    background-color: #3CBA7D;
+}
+
+.nav-container .navbar-active {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-active .links {
+    display: flex;
+    gap: 20px;
+    font-size: 21px;
+}
+
+.navbar-active .links .link:hover {
+    background-color: #053464;
+    color: gold;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.navbar-active .links .link {
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.navbar-active .links .link,
+.navbar-active .icons svg {
+    color: #053464;
+    font-weight: 700;
+}
+
+.navbar-active .icons svg:hover {
+    color: gold;
+}
+
+.navbar-active .icons {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar-active .icons button {
+    border: none;
+    background: transparent;
+    margin-left: 10px;
+    display: none;
+}
+
+.navbar-active .logo {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.navbar-active .logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    z-index: 100;
+    position: absolute;
+    background: #053464;
+    top: 0;
+    left: 0;
+    padding: 50px;
+}
+
+.menu .top-bar {
+    display: flex;
+    position: relative;
+    top: 0;
+    justify-content: flex-end;
+    width: 100%;
+    color: gold;
+}
+
+.menu .fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    gap: 20px;
+    font-size: 25px;
+    color: gold;
+    font-weight: 700;
+}
+
+
+.menu .fields .link:hover {
+
+    color: greenyellow;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width:882px) {
+    .navbar-active .links {
+        display: none;
+    }
+
+    .navbar-active .icons button {
+        display: block;
+    }
+}
+
+@media (max-width:600px) {
+    .nav-container {
+        padding: 20px;
+    }
+
+}

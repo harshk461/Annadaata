@@ -1,0 +1,145 @@
+.contact-window {
+    width: 100%;
+    height: 100vh;
+    background-color: #3CBA7D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-window .contact-fields {
+    width: 600px;
+    text-align: center;
+    color: #fff;
+}
+
+.contact-fields h3 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.contact-fields .address-fields {
+    width: 100%;
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+}
+
+.address-fields .field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    transition: 1s all ease-in-out;
+    padding: 20px;
+}
+
+.address-fields .field:hover {
+    background: orange;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(22, 21, 21, 0.5) -3px -3px 6px 1px inset;
+}
+
+.contact-fields .input-field {
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 20px;
+    color: #000;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.input-field .text-fields {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    padding: 30px 0;
+    gap: 20px;
+}
+
+.text-fields .left-field {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.text-fields .left-field .input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.text-fields .left-field .input label {
+    font-weight: 600;
+}
+
+.text-fields .left-field .input input {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    width: 100%;
+}
+
+.text-fields .left-field .input input:focus,
+.text-fields .right-field textarea:focus {
+    outline: 2px solid orangered;
+}
+
+.text-fields .right-field {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.text-fields .right-field label {
+    font-weight: 600;
+}
+
+.text-fields .right-field textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.contact-fields button {
+    padding: 10px 20px;
+    border: none;
+    background: orange;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 10px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+@media (max-width:600px) {
+    .contact-window {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .contact-fields h3 {
+        padding-top: 100px;
+    }
+
+    .input-field .text-fields {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+        gap: 20px;
+    }
+
+    .text-fields .left-field .input input {
+        width: 100%;
+    }
+
+}
